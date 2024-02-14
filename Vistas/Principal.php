@@ -36,7 +36,7 @@
                 Salir<span class="sr-only">(current) </span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="link" href="https://github.com/sergiorc13/2-DAW-DWES/tree/main/2%C2%BA%20Trimestre/U6_ORM/Multimedia">
+                <a class="nav-link" id="link" href="https://github.com/sergiorc13/Multimedia">
                 <i class="fab fa-github"></i>Ver proyecto en Github</a>
             </li>
             </ul>
