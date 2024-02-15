@@ -45,18 +45,5 @@ class Pelicula extends Multimedia {
         $this->reparto = $reparto;
     }
 
-
-    
-    //Metodo to String y mostrarPeliculas
-    public function __toString() {
-        return parent::__toString() . "Director: " . $this->director . "<br>" . "Duracion: " . $this->duracion . "<br>" . "Reparto: " . $this->reparto . "<br>";
-    }
-
-    public function mostrarPeliculas() {
-        echo $this->__toString();
-    }
-
 }
-
-
 ?>

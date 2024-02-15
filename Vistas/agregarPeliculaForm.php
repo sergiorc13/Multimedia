@@ -44,6 +44,5 @@
         <div class="agregar">
         <button type="submit" class="btn btn-primary" name="submit">Agregar Película</button>
         </div>
-       
     </form>
 </div>

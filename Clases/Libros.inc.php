@@ -1,5 +1,4 @@
 <?php
-
 //Incluir la clase padre
 include_once 'Multimedia.inc.php';
 
@@ -43,17 +42,6 @@ class Libro extends Multimedia {
     public function setIsbn($isbn) {
         $this->isbn = $isbn;
     }
-
-
-    //Metodo to String y mostrarLibros
-    public function __toString() {
-        return parent::__toString() . "Autor: " . $this->autor . "<br>" . "Extension: " . $this->extension . "<br>" . "ISBN: " . $this->isbn . "<br>";
-    }
-
-    public function mostrarLibros() {
-        echo $this->__toString();
-    }
-
 
 }
 

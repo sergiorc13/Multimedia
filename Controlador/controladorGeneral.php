@@ -1,5 +1,4 @@
 <?php
-
 $orm = new ORM();
 
 // Obtener datos de películas con información de multimedia
@@ -12,7 +11,4 @@ $id = isset($_GET['id']) ? $_GET['id'] : null;
 $pelicula = $orm->find('Peliculas', $id);
 $libro = $orm->find('Libros', $id);
 $disco = $orm->find('Discos', $id);
-
-
-
 ?>

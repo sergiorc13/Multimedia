@@ -16,6 +16,7 @@
         <script src="../js/icons.js"></script>
         <title>VideoClub</title>
     </head>
+    
     <body>  
         <nav class="navbar navbar-expand-lg navbar-light blue fixed-top">
         <button id="sidebarCollapse" class="btn navbar-btn">
@@ -69,6 +70,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="../js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js" integrity="sha512-izdeU8IYiU7a10z0NE1Z3cEXeZct3RjO+AnDUDZQO+WhXNu0Dd6XYykL29ikBo+eGJx0QGnyUuJHPJ+gGX2FLQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
     </body>
 </html>

@@ -44,20 +44,9 @@ class Disco extends Multimedia {
         $this->iswc = $iswc;
     }
 
-    // Metodo to String y mostrarDiscos
-    public function __toString() {
-        return parent::__toString() . "Grupo o Musico: " . $this->grupoOMusico . "<br>" . "Duracion: " . $this->duracion . "<br>" . "ISWC: " . $this->iswc . "<br>";
-    }
-
-    public function mostrarDiscos() {
-        echo $this->__toString();
-    }
+    
     
 }
-/*
-$disco = new Disco("The Dark Side of the Moon", "Pink Floyd", "Inglaterra", 1973, "43:00", "ISWC-0000012345", "Rock");
 
-echo "<h1>Disco</h1>";
-$disco->mostrarDiscos();*/
   
 ?>

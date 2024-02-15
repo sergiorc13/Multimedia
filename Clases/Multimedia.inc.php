@@ -1,9 +1,5 @@
 <?php
 
-//include_once 'Libros.inc.php';
-//include_once 'Peliculas.inc.php';
-//include_once 'Discos.inc.php';
-
 //Clase padre
 abstract class Multimedia {
     
@@ -54,22 +50,6 @@ abstract class Multimedia {
     public function setGenero($genero) {
         $this->genero = $genero;
     }
-
-    // Método para establecer el ID
-    public function setId($id) {
-        $this->id = $id;
-    }
-
-    //Metodos
-    public function __toString() {
-        return "Titulo: " . $this->titulo . "<br>" . "Publicacion: " . $this->publicacion . "<br>" . "Año: " . $this->ano . "<br>" . "Genero: " . $this->genero . "<br>";
-    }
-
-    public function mostrarMultimedia() {
-        echo $this->__toString();
-    }
-    
-
 
 }
 
