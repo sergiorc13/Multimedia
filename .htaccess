@@ -1,0 +1,25 @@
+## Regla que dice si un directorio es un enlace simbólico, que lo siga.
+Options +FollowSymLinks
+## Regla donde le decimos a Apache que queremos sobre escribir las URLs para crear URLs amigables.
+RewriteEngine on
+
+#Ruta para el index
+RewriteRule ^Controlador/principal$ Controlador/index.php [L]
+
+#Rutas para mostrar todos los archivos
+RewriteRule ^Controlador/peliculas$ Controlador/index.php?vista=peliculas [L]
+RewriteRule ^Controlador/libros$ Controlador/index.php?vista=libros [L]
+RewriteRule ^Controlador/discos$ Controlador/index.php?vista=discos [L]
+
+#Rutas para mostrar archivos especificos
+RewriteRule ^Controlador/mostrarPelicula/([0-9]+)$ Controlador/index.php?vista=mostrarPelicula&id=$1 [L]
+RewriteRule ^Controlador/mostrarLibro/([0-9]+)$ Controlador/index.php?vista=mostrarLibro&id=$1 [L]
+RewriteRule ^Controlador/mostrarDisco/([0-9]+)$ Controlador/index.php?vista=mostrarDisco&id=$1 [L]
+
+
+#Rutas para agregar un nuevo archivo
+RewriteRule ^Controlador/agregarPelicula$ Controlador/index.php?vista=agregarPelicula [L]
+RewriteRule ^Controlador/agregarLibro$ Controlador/index.php?vista=agregarLibro [L]
+RewriteRule ^Controlador/agregarDisco$ Controlador/index.php?vista=agregarDisco [L]
+
+

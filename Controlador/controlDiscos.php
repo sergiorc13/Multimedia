@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
     $idInsertado = $orm->insert('discos', $nuevoDisco);
 
     if ($idInsertado != -1) {
-        header("Location: ../Controlador/index.php");
+        header("Location: principal");
         echo "Disco insertado con éxito. ID del nuevo registro: $idInsertado";
     } else {
         echo "Error al insertar el disco";

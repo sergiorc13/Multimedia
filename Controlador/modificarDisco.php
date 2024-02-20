@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET["id"])) {
 
     if ($result > 0) {
         // Éxito al modificar
-        header("Location: ../Controlador/index.php");
+        header("Location: principal");
         exit();
     } else {
        

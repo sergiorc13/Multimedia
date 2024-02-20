@@ -22,7 +22,7 @@
         <button id="sidebarCollapse" class="btn navbar-btn">
             <i class="fas fa-lg fa-bars"></i>
         </button>
-        <a class="navbar-brand" href="<?php $_SERVER["PHP_SELF"] ?> ?vista=principal">
+        <a class="navbar-brand" href="principal">
             <h3 id="logo">VideoClub</h3>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"   data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"  aria-expanded="false" aria-label="Toggle navigation">
@@ -52,13 +52,13 @@
 
         <ul class="list-unstyled components">
         <li>
-            <a href="<?php $_SERVER["PHP_SELF"] ?> ?vista=peliculas"><i class="fas fa-film"></i>Películas</a>
+            <a href="peliculas"><i class="fas fa-film"></i>Películas</a>
         </li>
         <li>
-            <a href="<?php $_SERVER["PHP_SELF"] ?> ?vista=libros"><i class="fas fa-book"></i>Libros</a>
+            <a href="libros"><i class="fas fa-book"></i>Libros</a>
         </li>
         <li>
-            <a href="<?php $_SERVER["PHP_SELF"] ?> ?vista=discos"><i class="fas fa-headphones"></i>Álbumes</a>
+            <a href="discos"><i class="fas fa-headphones"></i>Álbumes</a>
         </li>
         </ul>
     </nav>

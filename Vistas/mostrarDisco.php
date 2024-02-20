@@ -32,7 +32,7 @@
         </table> <br>
 
         <div class="agregar">
-        <a class="btn btn-primary" href="<?php echo "../Controlador/modificarDisco.php?id={$row['id']}"?>" onclick="return confirm('¿Estás seguro de que deseas guardar este disco?')">Guardar disco</a>
-        <a class="btn btn-primary" href="<?php echo "../Controlador/borrarDisco.php?id={$row['id']}"?>" onclick="return confirm('¿Estás seguro de que deseas borrar este disco?')">Borrar disco</a>
+        <a class="btn btn-primary" href="<?php echo "../modificarDisco.php?id={$row['id']}"?>" onclick="return confirm('¿Estás seguro de que deseas guardar este disco?')">Guardar disco</a>
+        <a class="btn btn-primary" href="<?php echo "../borrarDisco.php?id={$row['id']}"?>" onclick="return confirm('¿Estás seguro de que deseas borrar este disco?')">Borrar disco</a>
         </div>
 </div>

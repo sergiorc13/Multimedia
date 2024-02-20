@@ -32,7 +32,7 @@
         </table><br>
 
         <div class="agregar">
-        <a class="btn btn-primary" href="<?php echo "../Controlador/modificarLibro.php?id={$row['id']}"?>" onclick="return confirm('¿Estás seguro de que deseas guardar este libro?')">Guardar libro</a>
-        <a class="btn btn-primary" href="<?php echo "../Controlador/borrarLibro.php?id={$row['id']}"?>" onclick="return confirm('¿Estás seguro de que deseas borrar este libro?')">Borrar libro</a>
+        <a class="btn btn-primary" href="<?php echo "../modificarLibro.php?id={$row['id']}"?>" onclick="return confirm('¿Estás seguro de que deseas guardar este libro?')">Guardar libro</a>
+        <a class="btn btn-primary" href="<?php echo "../borrarLibro.php?id={$row['id']}"?>" onclick="return confirm('¿Estás seguro de que deseas borrar este libro?')">Borrar libro</a>
         </div>
 </div>

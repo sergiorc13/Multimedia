@@ -36,7 +36,8 @@
         </table><br>
 
         <div class="agregar">
-        <a class="btn btn-primary" href="<?php echo "../Controlador/modificarPelicula.php?id={$row['id']}"?>" onclick="return confirm('¿Estás seguro de que deseas guardar esta película?')">Guardar película</a>
-        <a class="btn btn-primary" href="<?php echo "../Controlador/borrarPelicula.php?id={$row['id']}"?>" onclick="return confirm('¿Estás seguro de que deseas borrar esta película?')">Borrar</a>
+        
+        <a class="btn btn-primary" href="<?php echo "../modificarPelicula.php?id={$row['id']}"?>" onclick="return confirm('¿Estás seguro de que deseas guardar esta película?')">Modificar</a>
+        <a class="btn btn-primary" href="<?php echo "../borrarPelicula.php?id={$row['id']}"?>" onclick="return confirm('¿Estás seguro de que deseas borrar esta película?')">Borrar</a>
         </div>
 </div>

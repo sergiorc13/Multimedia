@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
     $idInsertado = $orm->insert('peliculas', $nuevaPelicula);
 
     if ($idInsertado != -1) {
-        header("Location: ../Controlador/index.php");
+        header("Location: principal");
         echo "Película insertada con éxito. ID del nuevo registro: $idInsertado";
     } else {
         echo "Error al insertar la película";
