@@ -10,16 +10,15 @@ class Disco extends Multimedia {
     private $duracion;
     private $iswc;
 
-    // Constructor sobrecargado
-    public function __construct($titulo, $grupoOMusico, $publicacion, $año, $duracion, $iswc, $genero) {
-        parent::__construct($titulo, $publicacion, $año, $genero);
+    //Contructor
+    public function __construct($titulo, $publicacion, $ano, $genero, $imagen, $guardado, $grupoOMusico, $duracion, $iswc) {
+        parent::__construct($titulo, $publicacion, $ano, $genero, $imagen, $guardado);
         $this->grupoOMusico = $grupoOMusico;
         $this->duracion = $duracion;
         $this->iswc = $iswc;
     }
 
-    // Getters y Setters
-
+    //Getters y Setters específcos para disco
     public function getGrupoOMusico() {
         return $this->grupoOMusico;
     }
@@ -44,7 +43,6 @@ class Disco extends Multimedia {
         $this->iswc = $iswc;
     }
 
-    
     
 }
 

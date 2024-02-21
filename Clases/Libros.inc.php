@@ -10,15 +10,16 @@ class Libro extends Multimedia {
     private $extension;
     private $isbn;
 
-    //Contructor
-    public function __construct($titulo, $publicacion, $ano, $genero, $autor, $extension, $isbn) {
-        parent::__construct($titulo, $publicacion, $ano, $genero);
+    //Constructor
+    public function __construct($titulo, $publicacion, $ano, $genero, $imagen, $guardado, $autor, $extension, $isbn) {
+        parent::__construct($titulo, $publicacion, $ano, $genero, $imagen, $guardado);
         $this->autor = $autor;
         $this->extension = $extension;
         $this->isbn = $isbn;
     }
 
     //Getters y Setters específcos para libro
+
     public function getAutor() {
         return $this->autor;
     }
@@ -43,6 +44,7 @@ class Libro extends Multimedia {
         $this->isbn = $isbn;
     }
 
+    
 }
 
 ?>

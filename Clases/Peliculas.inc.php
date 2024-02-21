@@ -12,8 +12,8 @@ class Pelicula extends Multimedia {
     private $reparto;
 
     //Constructor
-    public function __construct($titulo, $publicacion, $ano, $genero, $director, $duracion, $reparto) {
-        parent::__construct($titulo, $publicacion, $ano, $genero);
+    public function __construct($titulo, $publicacion, $ano, $genero, $imagen, $guardado, $director, $duracion, $reparto) {
+        parent::__construct($titulo, $publicacion, $ano, $genero, $imagen, $guardado);
         $this->director = $director;
         $this->duracion = $duracion;
         $this->reparto = $reparto;

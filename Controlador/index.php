@@ -1,10 +1,7 @@
 <?php
 
-//incluir las clases
+//Incluir el modelo ORM
 include_once('../Modelo/ORM.inc.php');
-include_once('../Clases/Discos.inc.php');
-include_once('../Clases/Libros.inc.php');
-include_once('../Clases/Peliculas.inc.php');
 
 //Incluir el controlador general
 include_once('../Controlador/controladorGeneral.php');
